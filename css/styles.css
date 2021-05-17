@@ -89,3 +89,19 @@ img {
       border-radius: 0 0 7px 7px;
    }
 }
+
+@media screen and (min-width: 375px) and (max-width: 1020px) {
+   * {
+      font-size: 17px;
+   }
+   .content {
+      display: block;
+      width: 80%;
+   }
+   .content__sedans {
+      border-radius: 7px 7px 0 0;
+   }
+   .content__luxury {
+      border-radius: 0 0 7px 7px;
+   }
+}
